@@ -1,0 +1,26 @@
+1 - What is a hypothesis and what is its goal? (It’s a second chance for you to say something intelligible, no need to thank us!)
+A hypothesis is a function that should be abble to predict value base on our data
+
+
+2 - What is the cost function and what does it represent?
+It's a function that help us to see how bad our model is, how much it cost us to use it
+There's mutliple way to define our cost function, one is MSE (Mean squared error)
+
+
+3 - What is Linear Gradient Descent and what does it do? (hint: you have to talk about J, its gradient and the
+theta parameters. . . )
+It help us find the right theta values to minimise our cost function J (== have the better result with our model)
+To do that we use gradient to know how much to change our thetas and in wich "direction" (positive/negative)
+
+
+4 - What happens if you choose a learning rate that is too large?
+We're gona pass the minimum and keep having bigger thetas
+
+
+5 - What happens if you choose a very small learning rate, but still a sufficient number of cycles?
+You find the right thetas value but very slowly
+
+
+6 - Can you explain MSE and what it measures?
+MSE is a cost function. It's value represent the mean of the squared difference between
+the result we were given (y) and the result our model produced with our current thetas (y hat)
